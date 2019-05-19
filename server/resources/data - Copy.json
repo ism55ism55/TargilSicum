@@ -1,0 +1,57 @@
+{
+    "people": [
+        {
+            "name": "Elad",
+            "age": 21,
+            "id": "046263422",
+            "job-title": "Automation",
+            "programs": [
+                "java",
+                "JS",
+                "html",
+                "go"
+            ],
+            "education": {
+                "Kindergarten": "yes",
+                "Elementary School": "yes",
+                "High School": "yes",
+                "university": "yes"
+            }
+        },
+        {
+            "name": "Eytan",
+            "age": 17,
+            "id": "200355479",
+            "job-title": "Automation",
+            "programs": [
+                "java",
+                "JS",
+                "html"
+            ],
+            "education": {
+                "Kindergarten": "yes",
+                "Elementary School": "yes",
+                "High School": "yes",
+                "university": "yes"
+            }
+        },
+        {
+            "name": "Adam",
+            "age": 20,
+            "id": "1112547",
+            "job-title": "QA",
+            "programs": [
+                "java",
+                "JS",
+                "python",
+                "html"
+            ],
+            "education": {
+                "Kindergarten": "yes",
+                "Elementary School": "yes",
+                "High School": "yes",
+                "university": "yes"
+            }
+        }
+    ]
+}
