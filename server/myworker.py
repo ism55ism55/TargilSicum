@@ -53,13 +53,14 @@ class Worker:
                 and json_obj['employies'][entry]['programs'] != "" and json_obj['employies'][entry]['birthday'] != "" and json_obj['employies'][entry]['adress']:
 
                 if not self.check_if_user_exists(json_obj['employies'][entry]['name']):
-                    self.json_data['employies'].update(json_obj['employies'])
+                    if self.json_data['employies'].update(json_obj['employies']) is None:
+                        return True
+            else:
+                    self.logger.debug("Failed Adding new user one of the values is empty: " + str(json_obj) )
+                    print("Failed Adding new user one of the values is empty: " + str(json_obj))
 
-        else:
-             self.logger.debug("Failed Adding new user one of the values is empty " + "username " + username + "salary " + salary + "department " + department + "birthday " + birthday)
-             print("Failed Adding new user one of the values is empty " + "username " + username + "salary " + salary + "department " + department + "birthday " + birthday)
+        return False
 
-        return len(self.json_data['employies'])
 
 
     def remove_employee (self, username):

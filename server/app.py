@@ -3,10 +3,15 @@ from flask import Flask, request
 from server import myworker
 
 json_data_file = ".\\employesObj.json"
+success_json = ".\\success.json"
+fail_json = ".\\fail.json"
+
 myWorker = myworker.Worker(json_data_file)
 base_url = "http://127.0.0.1/"
 app = Flask(__name__)
 
+json_success_res = json.loads(myWorker.get_json_data_from_file(success_json))
+json_fail_res = json.loads(myWorker.get_json_data_from_file(fail_json))
 
 @app.route('/', methods=['GET'])
 def hello_world():
@@ -20,15 +25,21 @@ def add_employee():
 
     emp_dict = dict()
     json_data = request.get_json()
+    res = myWorker.add_employee(json_data)
 
-    # response = app.response_class(
-    #     response=json.dumps(json_data),
-    #     status=200,
-    #     mimetype='application/json'
-    # )
-    # return response
+    if res is True:
+        response = json_success_res,
+        status = 200,
+    else:
+        response = json_fail_res,
+        status = 400,
 
-    myWorker.add_employee(json_data)
+    response = app.response_class(
+             response=response,
+             status=status,
+             mimetype='application/json'
+         )
+    return response
 
 
 @app.route('/updatesalary', methods=['GET'])
