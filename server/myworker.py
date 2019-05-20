@@ -30,12 +30,17 @@ class Worker:
 
     def check_if_user_exists(self, username):
 
-        for i in range(len(self.json_data['employies'])):
-            if username == self.json_data['employies'][i]['name']:
-                print("User exists - not adding the new user {}".format(username))
-                self.json_data("User exists - not adding the new user {}".format(username))
-                return True
+        obj = self.json_data['employies']
+
+        if username in obj:
+            print("User exists - not adding the new user {}".format(username))
+            self.json_data("User exists - not adding the new user {}".format(username))
+            return True
         return False
+
+        ##for entry in self.json_data['employies']:
+        ##range(len(self.json_data['employies'])):
+        #if username == self.json_data['employies'][entry]['name']:
 
 
 
@@ -46,19 +51,19 @@ class Worker:
 
         # if self.check_num_of_employees() >10:
         #     return  len(self.json_data['employies'])
+        for entry in json_obj['employies']:
+            if json_obj['employies'][entry]['name'] != "" and json_obj['employies'][entry]['salary'] != "" and json_obj['employies'][entry]['department'] != "" \
+                and json_obj['employies'][entry]['programs'] != "" and json_obj['employies'][entry]['birthday'] != "" and json_obj['employies'][entry]['adress']:
+                if not self.check_if_user_exists(json_obj['employies'][entry]['name']):
 
-
-        if json_obj[1]['name'] != "" and salary != "" and department != "" and progrmas != ""  and birthday !="":
-            if not self.check_if_user_exists():
-                    splited_date = birthday.split('//')
-                    self.json_data['employies']['name'] = username
-                    self.json_data['employies']['name']['birthday']['day'] = splited_date[0]
-                    self.json_data['employies']['name']['birthday']['month'] = splited_date[1]
-                    self.json_data['employies']['name']['birthday']['year'] = splited_date[2]
-                    self.json_data['employies']['name']['department'] = department
-                    self.json_data['employies']['name']['salary'] = salary
-                    self.json_data['employies']['name']['programs'].append(progrmas)
-                    self.json_data['employies']['name']['adress'] = address
+                    self.json_data['employies']['name'] = json_obj['employies']['name']
+                    self.json_data['employies']['name']['birthday']['day'] = json_obj['employies']['name']['birthday']['day']
+                    self.json_data['employies']['name']['birthday']['month'] = json_obj['employies']['name']['birthday']['month']
+                    self.json_data['employies']['name']['birthday']['year'] = json_obj['employies']['name']['birthday']['year']
+                    self.json_data['employies']['name']['department'] = json_obj[1]['department']
+                    self.json_data['employies']['name']['salary'] = json_obj['employies']['name']['salary']
+                    self.json_data['employies']['name']['programs'].append(json_obj['employies']['name']['programs'])
+                    self.json_data['employies']['name']['adress'] = json_obj['employies']['name']['adress']
 
         else:
              logger.debug("Failed Adding new user one of the values is empty " + "username " + username + "salary " + salary + "department " + department + "birthday " + birthday)
