@@ -1,11 +1,11 @@
 import datetime
 import json
-import TargilSicum.Logger
+import Logger
 
 class Worker:
 
     json_data = dict()
-    logger = TargilSicum.Logger.get_logger(log_path='.\\', log_name='ServerLogger')
+    logger = Logger.get_logger(log_path='.\\', log_name='ServerLogger')
 
     def __init__(self, json_file_path ):
         self.logger.debug("Starting Server")
@@ -48,25 +48,15 @@ class Worker:
         return len(self.json_data['employies'])
 
     def add_employee(self, json_obj):
-
-        # if self.check_num_of_employees() >10:
-        #     return  len(self.json_data['employies'])
         for entry in json_obj['employies']:
             if json_obj['employies'][entry]['name'] != "" and json_obj['employies'][entry]['salary'] != "" and json_obj['employies'][entry]['department'] != "" \
                 and json_obj['employies'][entry]['programs'] != "" and json_obj['employies'][entry]['birthday'] != "" and json_obj['employies'][entry]['adress']:
-                if not self.check_if_user_exists(json_obj['employies'][entry]['name']):
 
-                    self.json_data['employies']['name'] = json_obj['employies']['name']
-                    self.json_data['employies']['name']['birthday']['day'] = json_obj['employies']['name']['birthday']['day']
-                    self.json_data['employies']['name']['birthday']['month'] = json_obj['employies']['name']['birthday']['month']
-                    self.json_data['employies']['name']['birthday']['year'] = json_obj['employies']['name']['birthday']['year']
-                    self.json_data['employies']['name']['department'] = json_obj[1]['department']
-                    self.json_data['employies']['name']['salary'] = json_obj['employies']['name']['salary']
-                    self.json_data['employies']['name']['programs'].append(json_obj['employies']['name']['programs'])
-                    self.json_data['employies']['name']['adress'] = json_obj['employies']['name']['adress']
+                if not self.check_if_user_exists(json_obj['employies'][entry]['name']):
+                    self.json_data['employies'].update(json_obj['employies'])
 
         else:
-             logger.debug("Failed Adding new user one of the values is empty " + "username " + username + "salary " + salary + "department " + department + "birthday " + birthday)
+             self.logger.debug("Failed Adding new user one of the values is empty " + "username " + username + "salary " + salary + "department " + department + "birthday " + birthday)
              print("Failed Adding new user one of the values is empty " + "username " + username + "salary " + salary + "department " + department + "birthday " + birthday)
 
         return len(self.json_data['employies'])

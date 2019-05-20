@@ -1,6 +1,6 @@
 import json
 from flask import Flask, request
-from TargilSicum.server import myworker
+from server import myworker
 
 json_data_file = ".\\employesObj.json"
 myWorker = myworker.Worker(json_data_file)
@@ -19,16 +19,16 @@ def hello_world():
 def add_employee():
 
     emp_dict = dict()
-    json_date = request.get_json()
+    json_data = request.get_json()
 
     # response = app.response_class(
-    #     response=json.dumps(json_date),
+    #     response=json.dumps(json_data),
     #     status=200,
     #     mimetype='application/json'
     # )
     # return response
 
-    myWorker.add_employee(json_date)
+    myWorker.add_employee(json_data)
 
 
 @app.route('/updatesalary', methods=['GET'])

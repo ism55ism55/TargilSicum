@@ -1,6 +1,5 @@
 import pytest
-from TargilSicum.server import myworker
-import TargilSicum.Logger
+from server import myworker
 import requests
 
 json_data_file = "C:\\Users\\user96\\PycharmProjects\\TargilSicum\\employesObj.json"
