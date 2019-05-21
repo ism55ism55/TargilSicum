@@ -1,6 +1,6 @@
 import json
 from flask import Flask, request
-from server import myworker
+from TargilSicum.server import myworker
 
 json_data_file = ".\\employesObj.json"
 success_json = ".\\success.json"
@@ -13,6 +13,25 @@ app = Flask(__name__)
 json_success_res = json.loads(myWorker.get_json_data_from_file(success_json))
 json_fail_res = json.loads(myWorker.get_json_data_from_file(fail_json))
 
+
+def handle_response(res, val):
+
+    if res is True:
+        response = json.dumps({'Server Status:': 'Success', 'response': val})
+        status = 200
+    else:
+        response = json.dumps({'Server Status:': 'Success', 'response': val})
+        status = 400
+
+    response = app.response_class(
+        response=response,
+        status=status,
+        mimetype='application/json; charset=utf-8'
+    )
+
+    return response
+
+
 @app.route('/', methods=['GET'])
 def hello_world():
     return 'Ping-Pong'
@@ -23,42 +42,63 @@ def hello_world():
 @app.route('/addemployee', methods=['POST'])
 def add_employee():
 
-    emp_dict = dict()
+    response = dict()
     json_data = request.get_json()
     res = myWorker.add_employee(json_data)
+    return handle_response(res)
 
-    if res is True:
-        response = json_success_res,
-        status = 200,
-    else:
-        response = json_fail_res,
-        status = 400,
 
-    response = app.response_class(
-             response=response,
-             status=status,
-             mimetype='application/json'
-         )
-    return response
 
 
 @app.route('/updatesalary', methods=['GET'])
 def update_salary():
+
+    res_json = dict()
+    status = 400
     increment = request.args.get('increment')
     user = request.args.get('user')
-    return myWorker.update_salary(user, increment)
+
+    res_json = myWorker.update_salary(user,increment )
+
+    if any(res_json):
+        status = 200
+
+    response = handle_response(status, res_json)
+
+    return response
 
 
-@app.route('/update_salary_all', methods=['GET'])
+
+
+@app.route('/update_salary_all', methods=['POST'])
 def update_salary_all():
+    response = dict()
+    status = 400
+
     incprecent = request.args.get('incprecent')
-    return myWorker.update_salary_all(incprecent)
+    res_json = myWorker.update_salary_all(incprecent)
+
+    if any(res_json):
+        status = 200
+
+    response = app.response_class(
+        response=json.dumps(res_json),
+        status=200,
+        mimetype='application/json; charset=utf-8'
+    )
+
+    return response
 
 
-@app.route('/deluser', methods=['GET'])
+@app.route('/deluser', methods=['POST'])
 def remove_emp():
     user = request.args.get('user')
-    return myWorker.remove_employee(user)
+    res = myWorker.remove_employee(user)
+    bRest = False
+    if res > 0:
+        bRest = True
+
+    return handle_response(bRest, "")
 
 
 @app.route('/deldb', methods=['POST'])
