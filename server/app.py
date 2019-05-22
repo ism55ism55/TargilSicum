@@ -1,6 +1,6 @@
 import json
 from flask import Flask, request
-from TargilSicum.server import myworker
+from server import myworker
 
 json_data_file = ".\\employesObj.json"
 success_json = ".\\success.json"
@@ -67,6 +67,26 @@ def update_salary():
 
     return response
 
+
+
+@app.route('/birthday_employee', methods=['POST'])
+def get_bd_employees():
+    response = dict()
+    status = 400
+
+    month = request.args.get('month')
+    res_json = myWorker.birthday_employees(month)
+
+    if any(res_json):
+        status = 200
+
+    response = app.response_class(
+        response=json.dumps(res_json),
+        status=200,
+        mimetype='application/json; charset=utf-8'
+    )
+
+    return response
 
 
 

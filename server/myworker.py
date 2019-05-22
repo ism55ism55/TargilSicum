@@ -1,11 +1,11 @@
 import datetime
 import json
-import TargilSicum.Logger
+import Logger
 
 class Worker:
 
     json_data = dict()
-    logger = TargilSicum.Logger.get_logger(log_path='.\\', log_name='ServerLogger')
+    logger = Logger.get_logger(log_path='.\\', log_name='ServerLogger')
 
     def __init__(self, json_file_path ):
         self.logger.debug("Starting Server")
@@ -101,7 +101,6 @@ class Worker:
 
 
     def update_salary_all (self, percentage):
-
         if int(percentage) > 0:
             for username in self.json_data['employies']:
                 if self.json_data['employies'][username]['salary']:
@@ -114,7 +113,6 @@ class Worker:
                     else:
                         print("Found user {} no salary defined {}".format(self.json_data['employies'][username]['Name'],self.json_data['employies'][username]['salary']))
                         self.logger.debug("Found user {} no salary defined {}".format(self.json_data['employies'][username]['Name'],self.json_data['employies'][username]['salary']))
-
         else:
             self.logger.debug("Increment is 0 nothing to do ")
             print("Increment is 0 nothing to do ")
@@ -123,24 +121,11 @@ class Worker:
 
 
 
-    def employee_age(self, month):
-
-        pension_emp = dict()
-        obj = self.json_data['employies']
-
-        for name in self.json_data['employies']:
-                age = int(datetime.datetime.now().year) - self.json_data['employies'][name]['birthday']['year'] >= 67:
-                        pension_emp.append(self.json_data['employies'][name] : age )
-
-        return pension_emp
-
-
-
     def birthday_employees(self, month):
         bd_this_month = dict()
         for name in self.json_data['employies']:
-            if month == self.json_data['employies'][name]['birthday']['month']:
-                    bd_this_month.append(self.json_data['employies'][name]['name'])
+            if int(month) == self.json_data['employies'][name]['birthday']['month']:
+                    bd_this_month[name]=self.json_data['employies'][name]
                     print("Found user {} is celebrating birthday this month".format(self.json_data['employies'][name]['name']))
                     self.logger.debug("Found user {} is celebrating birthday this month".format(self.json_data['employies'][name]['name']))
         return bd_this_month
@@ -148,11 +133,11 @@ class Worker:
 
     def add_programming_laguage (self, username, program):
         if username != "":
-            for i in range(len(self.json_data['employies'])):
-                if username == self.json_data['employies'][i]['name']:
-                    self.json_data['employies'][i]['programs'].append(program)
-                    print("Found user {} adding programming language, new programs list is ".format(username, self.json_data['employies'][i]['programs']))
-                    self.logger.debug("Found user {} adding programming language, new programs list is ".format(username,self.json_data['employies'][i]['programs']))
+            for name in self.json_data['employies']:
+                if name == self.json_data['employies'][name]:
+                    self.json_data['employies'][name]['programs'] = [self.json_data['employies'][name]['programs'] , program]
+                    print("Found user {} adding programming language, new programs list is ".format(name, self.json_data['employies'][name]['programs']))
+                    self.logger.debug("Found user {} adding programming language, new programs list is ".format(username,self.json_data['employies'][name]['programs']))
         else:
             self.logger.debug("Username is empty - nothing to do {}".format(username))
             print("Username is empty - nothing to do {}".format(username))

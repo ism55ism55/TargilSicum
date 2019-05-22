@@ -32,7 +32,7 @@
             "name": "caroline",
             "birthday": {
                 "day": 7,
-                "year": 1983,
+                "year": 1950,
                 "month": 12
             },
             "department": "qa",
@@ -41,6 +41,22 @@
                 "excel"
             ],
             "adress": "motzkin"
+        },
+        "david":
+        {
+            "name": "david",
+            "birthday": {
+                "day": 1,
+                "year": 1947,
+                "month": 8
+            },
+            "department": "qa",
+            "salary": 5000,
+            "programs": [
+                "python",
+                "snake"
+            ],
+            "adress": "Haifa"
         }
     }
 }
