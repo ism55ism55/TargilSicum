@@ -1,7 +1,6 @@
 {
     "employies": {
-        "adi":
-        {
+        "adi": {
             "name": "adi",
             "birthday": {
                 "day": 21,
@@ -42,8 +41,7 @@
             ],
             "adress": "motzkin"
         },
-        "david":
-        {
+        "david": {
             "name": "david",
             "birthday": {
                 "day": 1,
@@ -55,6 +53,22 @@
             "programs": [
                 "python",
                 "snake"
+            ],
+            "adress": "Haifa"
+        },
+        "ilan": {
+            "name": "ilan",
+            "birthday": {
+                "day": 14,
+                "year": 1973,
+                "month": 8
+            },
+            "department": "qa",
+            "salary": 3333333,
+            "programs": [
+                "python",
+                "snake",
+                "pascal"
             ],
             "adress": "Haifa"
         }

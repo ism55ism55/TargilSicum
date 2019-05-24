@@ -15,6 +15,9 @@ class Worker:
 
 
     def write_to_json_file(self, json_file_path):
+        if not json_file_path:
+            json_file_path = self.global_db_path
+
         json_from_dict = json.dumps(self.json_data,indent=4)
         with open(json_file_path, 'w') as out_file:
             out_file.write(json_from_dict)
@@ -33,7 +36,6 @@ class Worker:
         obj = self.json_data['employies']
 
         if username in obj:
-            print("User exists - not adding the new user {}".format(username))
             self.logger.debug("User exists - not adding the new user {}".format(username))
             return True
         return False
@@ -53,10 +55,10 @@ class Worker:
                 and json_obj['employies'][entry]['programs'] != "" and json_obj['employies'][entry]['birthday'] != "" and json_obj['employies'][entry]['adress']:
                 if not self.check_if_user_exists(json_obj['employies'][entry]['name']):
                     if self.json_data['employies'].update(json_obj['employies']) is None:
+                        self.write_to_json_file (json_file_path="")
                         return True
             else:
                     self.logger.debug("Failed Adding new user one of the values is empty: " + str(json_obj) )
-                    print("Failed Adding new user one of the values is empty: " + str(json_obj))
 
         return False
 
@@ -68,34 +70,31 @@ class Worker:
             obj = self.json_data['employies']
             if username in obj:
                     del self.json_data['employies'][username]
-                    print("Found user {} removing user".format(username))
                     self.logger.debug("Found user {} removing user".format(username))
+                    self.write_to_json_file(json_file_path="")
                     return True
             else:
-                print("User {} not found".format(username))
                 self.logger.debug("User {} not found".format(username))
                 return False
         else:
             self.logger.debug("Failed removing user - values is empty {}".format(username))
-            print("Failed removing user - values is empty {}".format(username))
             return False
 
 
-    def update_salary (self, username, increment):
+    def update_salary (self, destEmpt, increment):
 
-        if username != "":
+        if destEmpt != "":
             for username in (self.json_data['employies']):
-                        if self.json_data['employies'][username]['salary'] is not None:
+                        if username == destEmpt and self.json_data['employies'][username]['salary'] is not None:
                             new_salary = int(self.json_data['employies'][username]['salary']) + int(increment)
                             self.json_data['employies'][username]['salary'] = str(new_salary)
-
+                            self.write_to_json_file(json_file_path="")
                         else:
-                            print("Found user {} no salary defined {}".format(username,self.json_data['employies'][username]['salary']))
                             self.logger.debug("Found user {} no salary defined {}".format(username,self.json_data['employies'][username]['salary']))
-
+                            return None
         else:
-            self.logger.debug("User {} not found ".format(username))
-            print("User {} not found ".format(username))
+            self.logger.debug("User {} not found ".format(destEmpt))
+            return None
 
         return self.json_data
 
@@ -108,14 +107,13 @@ class Worker:
                         new_salary = int(self.json_data['employies'][username]['salary'])
                         new_salary += new_salary * int(percentage)/100
                         self.json_data['employies'][username]['salary'] = new_salary
-                        print("Found user {} Adding Salary, new Salry is {}".format(self.json_data['employies'][username]['name'], self.json_data['employies'][username]['salary']))
+                        self.write_to_json_file (json_file_path="")
                         self.logger.debug("Found user {} Adding Salary, new Salry is {}".format(self.json_data['employies'][username]['name'], self.json_data['employies'][username]['salary']))
                     else:
-                        print("Found user {} no salary defined {}".format(self.json_data['employies'][username]['Name'],self.json_data['employies'][username]['salary']))
                         self.logger.debug("Found user {} no salary defined {}".format(self.json_data['employies'][username]['Name'],self.json_data['employies'][username]['salary']))
         else:
             self.logger.debug("Increment is 0 nothing to do ")
-            print("Increment is 0 nothing to do ")
+
 
         return self.json_data
 
@@ -126,21 +124,21 @@ class Worker:
         for name in self.json_data['employies']:
             if int(month) == self.json_data['employies'][name]['birthday']['month']:
                     bd_this_month[name]=self.json_data['employies'][name]
-                    print("Found user {} is celebrating birthday this month".format(self.json_data['employies'][name]['name']))
                     self.logger.debug("Found user {} is celebrating birthday this month".format(self.json_data['employies'][name]['name']))
         return bd_this_month
 
 
     def add_programming_laguage (self, username, program):
-        if username != "":
+        if username and program:
             for name in self.json_data['employies']:
-                if name == self.json_data['employies'][name]:
-                    self.json_data['employies'][name]['programs'] = [self.json_data['employies'][name]['programs'] , program]
-                    print("Found user {} adding programming language, new programs list is ".format(name, self.json_data['employies'][name]['programs']))
+                if name == username:
+                #    self.json_data['employies'][name]['programs'] = [self.json_data['employies'][name]['programs'] , program]
+                    self.json_data['employies'][name]['programs'].append(program)
                     self.logger.debug("Found user {} adding programming language, new programs list is ".format(username,self.json_data['employies'][name]['programs']))
+                    self.write_to_json_file(json_file_path="")
+
         else:
             self.logger.debug("Username is empty - nothing to do {}".format(username))
-            print("Username is empty - nothing to do {}".format(username))
         return  self.json_data
 
 

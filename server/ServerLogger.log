@@ -577,3 +577,337 @@
 2019-05-22 21:49:07,205-ServerLogger-DEBUG-Loading DB
 2019-05-22 21:49:07,205-ServerLogger-DEBUG-Starting Server
 2019-05-22 21:49:07,206-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:13:00,836-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:13:00,846-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:13:01,968-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:13:01,968-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:13:29,743-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 17:13:29,743-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 17:15:04,854-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:15:04,854-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:15:06,884-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:15:06,884-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:16:13,651-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:16:13,651-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:16:16,857-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:16:16,857-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:16:18,930-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:16:18,933-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:19:48,314-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-24 17:20:28,639-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:20:28,642-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:20:31,369-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:20:31,369-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:20:33,268-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:20:33,268-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:21:30,854-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:21:30,854-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:21:32,574-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:21:32,574-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:23:51,730-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-24 17:24:12,539-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:24:12,539-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:24:46,675-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:24:46,676-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:24:49,625-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:24:49,627-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:29:55,638-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:29:55,638-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:29:55,638-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:29:55,638-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:30:09,371-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:30:09,371-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:30:09,371-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:30:09,371-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:30:13,294-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:30:13,294-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:30:13,512-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:30:13,512-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:30:16,512-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:30:16,512-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:32:02,157-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:32:02,157-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:32:02,172-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:32:02,172-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:32:06,607-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:32:06,607-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:32:09,189-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:32:09,205-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:32:18,229-ServerLogger-DEBUG-Found user adi no salary defined 5000
+2019-05-24 17:32:37,793-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:32:37,793-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:32:40,104-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:32:40,104-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:32:49,749-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:32:49,749-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:32:51,946-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:32:51,948-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:32:53,425-ServerLogger-DEBUG-Found user adi no salary defined 5000
+2019-05-24 17:34:15,451-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:34:15,451-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:34:15,654-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:34:15,654-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:34:57,078-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:34:57,078-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:34:58,786-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:34:58,787-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:35:03,327-ServerLogger-DEBUG-Found user adi no salary defined 5000
+2019-05-24 17:36:01,726-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:36:01,726-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:36:01,726-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:36:01,726-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:36:07,187-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:36:07,187-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:36:08,952-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:36:08,953-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:36:11,040-ServerLogger-DEBUG-Found user adi no salary defined 5000
+2019-05-24 17:37:00,497-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 17:37:00,499-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 17:37:31,111-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 17:37:31,117-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 17:40:59,131-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:40:59,131-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:40:59,132-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:40:59,132-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:41:11,340-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:41:11,340-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:41:13,552-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:41:13,552-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:41:19,124-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 17:41:19,131-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 17:41:49,775-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 17:41:49,777-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 17:41:49,779-ServerLogger-DEBUG-Found user ilan is celebrating birthday this month
+2019-05-24 17:42:22,162-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-24 17:43:25,177-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:43:25,177-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:43:25,179-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:43:25,179-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:43:46,437-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:43:46,437-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:43:49,512-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:43:49,514-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:43:54,427-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 17:43:54,428-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 17:44:09,587-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 17:44:09,588-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 17:44:09,589-ServerLogger-DEBUG-Found user ilan is celebrating birthday this month
+2019-05-24 17:47:41,316-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:47:41,317-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:47:43,428-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:47:43,432-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:49:40,661-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:49:40,662-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:49:42,371-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:49:42,371-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:50:33,646-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:50:33,648-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:50:43,468-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:50:43,471-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:50:54,386-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:50:54,386-ServerLogger-DEBUG-Loading DB
+2019-05-24 17:50:56,602-ServerLogger-DEBUG-Starting Server
+2019-05-24 17:50:56,603-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:49:20,442-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:49:20,442-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:49:22,496-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:49:22,498-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:50:04,118-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:50:04,120-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:50:06,473-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:50:06,475-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:55:56,037-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:55:56,037-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:55:59,067-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:55:59,069-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:57:03,302-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:57:03,304-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:57:05,672-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:57:05,674-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:57:35,927-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:57:35,927-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:57:38,285-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:57:38,289-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:57:59,979-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:57:59,981-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:58:51,835-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:58:51,837-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:58:54,349-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:58:54,349-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:59:08,610-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:59:08,610-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:59:09,092-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:59:09,092-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:59:43,183-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:59:43,184-ServerLogger-DEBUG-Loading DB
+2019-05-24 18:59:45,853-ServerLogger-DEBUG-Starting Server
+2019-05-24 18:59:45,855-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:00:24,021-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:00:24,023-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:00:24,786-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:00:24,787-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:00:26,350-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:00:26,350-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:01:38,723-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:01:38,725-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:01:40,636-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:01:40,637-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:02:28,202-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:02:28,202-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:02:29,889-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:02:29,890-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:02:34,750-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:02:34,751-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:02:37,145-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:02:37,145-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:03:19,968-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 6100.0
+2019-05-24 19:03:19,974-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 6710.0
+2019-05-24 19:03:19,976-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 12200.0
+2019-05-24 19:03:19,978-ServerLogger-DEBUG-Found user david Adding Salary, new Salry is 6100.0
+2019-05-24 19:06:51,795-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:06:51,816-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:06:54,273-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:06:54,274-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:06:57,013-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 19:06:57,015-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 19:07:19,466-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 19:07:19,467-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 19:07:19,468-ServerLogger-DEBUG-Found user ilan is celebrating birthday this month
+2019-05-24 19:07:30,015-ServerLogger-DEBUG-Found user adi no salary defined 5000
+2019-05-24 19:08:03,697-ServerLogger-DEBUG-Found user adi no salary defined 5000
+2019-05-24 19:09:01,737-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:09:01,739-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:09:04,008-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:09:04,011-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:09:26,221-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:09:26,222-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:09:27,779-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:09:27,780-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:09:34,578-ServerLogger-DEBUG-Found user adi no salary defined 5000
+2019-05-24 19:14:14,542-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:14:14,542-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:14:17,123-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:14:17,125-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:14:25,132-ServerLogger-DEBUG-Found user adi no salary defined 5000
+2019-05-24 19:14:29,374-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 19:14:29,375-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 19:14:38,389-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 19:14:38,389-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 19:14:38,390-ServerLogger-DEBUG-Found user ilan is celebrating birthday this month
+2019-05-24 19:16:32,427-ServerLogger-DEBUG-Found user ilan removing user
+2019-05-24 19:16:45,221-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 19:16:45,222-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 19:16:54,586-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 19:16:54,587-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 19:17:12,523-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:17:12,524-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:17:15,003-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:17:15,006-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:17:17,790-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 19:17:17,791-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 19:17:22,525-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 19:17:22,534-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 19:17:36,962-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 19:17:36,964-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 19:17:36,964-ServerLogger-DEBUG-Found user ilan is celebrating birthday this month
+2019-05-24 19:17:48,591-ServerLogger-DEBUG-Found user ilan removing user
+2019-05-24 19:17:55,165-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 19:17:55,166-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 19:18:06,407-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 19:18:06,407-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 19:18:06,408-ServerLogger-DEBUG-Found user ilan is celebrating birthday this month
+2019-05-24 19:19:37,053-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:19:37,056-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:19:39,835-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:19:39,840-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:19:57,318-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 19:19:57,323-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 19:55:36,056-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:55:36,057-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:55:37,798-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:55:37,798-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:57:50,934-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:57:50,936-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:58:04,458-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:58:04,459-ServerLogger-DEBUG-Loading DB
+2019-05-24 19:58:06,762-ServerLogger-DEBUG-Starting Server
+2019-05-24 19:58:06,763-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:01:24,676-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:01:24,676-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:01:26,963-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:01:26,964-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:01:32,249-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 20:01:32,251-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 20:04:59,601-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:04:59,602-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:05:03,145-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:05:03,147-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:05:05,731-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 20:05:05,731-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 20:07:21,669-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:07:21,671-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:07:26,424-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:07:26,424-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:07:28,225-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:07:28,226-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:08:24,206-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 20:08:24,207-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 20:08:24,208-ServerLogger-DEBUG-Found user ilan is celebrating birthday this month
+2019-05-24 20:10:56,209-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:10:56,209-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:10:58,528-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:10:58,529-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:10:59,143-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 20:10:59,143-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 20:10:59,143-ServerLogger-DEBUG-Found user ilan is celebrating birthday this month
+2019-05-24 20:11:27,958-ServerLogger-DEBUG-Found user ilan removing user
+2019-05-24 20:13:55,990-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:13:55,990-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:13:58,226-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:13:58,226-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:14:03,018-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 20:14:03,019-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 20:14:03,020-ServerLogger-DEBUG-Found user ilan is celebrating birthday this month
+2019-05-24 20:14:09,993-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-24 20:14:22,382-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 20:14:22,383-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 20:14:22,384-ServerLogger-DEBUG-Found user ilan is celebrating birthday this month
+2019-05-24 20:14:37,178-ServerLogger-DEBUG-User ilanfffff not found
+2019-05-24 20:15:02,885-ServerLogger-DEBUG-Found user ilan removing user
+2019-05-24 20:16:42,086-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:16:42,086-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:16:44,180-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:16:44,180-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:16:46,024-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 20:16:46,026-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 20:16:46,026-ServerLogger-DEBUG-Found user ilan is celebrating birthday this month
+2019-05-24 20:16:55,052-ServerLogger-DEBUG-Found user ilan removing user
+2019-05-24 20:17:03,431-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 20:17:03,432-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 20:18:19,632-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:18:19,632-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:20:49,563-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:20:49,567-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:21:13,896-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:21:13,899-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:21:47,316-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:21:47,316-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:21:48,915-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:21:48,916-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:28:33,430-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:28:33,430-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:28:36,508-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:28:36,510-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:28:38,978-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:28:38,979-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:31:15,695-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:31:15,695-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:31:16,680-ServerLogger-DEBUG-Starting Server
+2019-05-24 20:31:16,680-ServerLogger-DEBUG-Loading DB
+2019-05-24 20:31:23,515-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 20:31:23,517-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 20:31:23,518-ServerLogger-DEBUG-Found user ilan is celebrating birthday this month
+2019-05-24 20:31:59,133-ServerLogger-DEBUG-Found user ilan adding programming language, new programs list is 
+2019-05-24 20:32:13,191-ServerLogger-DEBUG-Found user adi is celebrating birthday this month
+2019-05-24 20:32:13,192-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-24 20:32:13,193-ServerLogger-DEBUG-Found user ilan is celebrating birthday this month

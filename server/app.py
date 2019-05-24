@@ -16,11 +16,11 @@ json_fail_res = json.loads(myWorker.get_json_data_from_file(fail_json))
 
 def handle_response(res, val):
 
-    if res is True:
+    if res is 200:
         response = json.dumps({'Server Status:': 'Success', 'response': val})
         status = 200
     else:
-        response = json.dumps({'Server Status:': 'Success', 'response': val})
+        response = json.dumps({'Server Status:': 'Fail', 'response': val})
         status = 400
 
     response = app.response_class(
@@ -42,83 +42,99 @@ def hello_world():
 @app.route('/addemployee', methods=['POST'])
 def add_employee():
 
-    response = dict()
+    status = 400
+    json_data = dict()
+
     json_data = request.get_json()
-    res = myWorker.add_employee(json_data)
-    return handle_response(res)
+    if any(json_data):
+        res = myWorker.add_employee(json_data)
+        if res:
+            status = 200
+    return handle_response(status, json_data)
 
 
 
 
 @app.route('/updatesalary', methods=['GET'])
 def update_salary():
-
     res_json = dict()
     status = 400
     increment = request.args.get('increment')
     user = request.args.get('user')
 
-    res_json = myWorker.update_salary(user,increment )
-
-    if any(res_json):
-        status = 200
+    if increment and user:
+        res_json = myWorker.update_salary(user,increment )
+        if res_json != None:
+            if any(res_json):
+                status = 200
 
     response = handle_response(status, res_json)
 
     return response
 
 
+@app.route('/update_languages', methods=['POST'])
+def update_prog_lang():
+    res_json = dict()
+    status = 400
+    programs = request.args.get('prog')
+    user = request.args.get('user')
+
+    if user and programs:
+        res_json = myWorker.add_programming_laguage(user, programs)
+        if res_json != None:
+            if any(res_json):
+                status = 200
+
+    response = handle_response(status, res_json)
+
+    return response
+
 
 @app.route('/birthday_employee', methods=['POST'])
 def get_bd_employees():
-    response = dict()
+    res_json = dict()
     status = 400
 
     month = request.args.get('month')
-    res_json = myWorker.birthday_employees(month)
+    if month:
+        res_json = myWorker.birthday_employees(month)
+        if any(res_json):
+                status = 200
 
-    if any(res_json):
-        status = 200
-
-    response = app.response_class(
-        response=json.dumps(res_json),
-        status=200,
-        mimetype='application/json; charset=utf-8'
-    )
-
+    response = handle_response(status, res_json)
     return response
 
 
 
 @app.route('/update_salary_all', methods=['POST'])
 def update_salary_all():
-    response = dict()
+    res_json = dict()
     status = 400
 
     incprecent = request.args.get('incprecent')
-    res_json = myWorker.update_salary_all(incprecent)
+    if incprecent:
+        res_json = myWorker.update_salary_all(incprecent)
+        if any(res_json):
+            status = 200
 
-    if any(res_json):
-        status = 200
-
-    response = app.response_class(
-        response=json.dumps(res_json),
-        status=200,
-        mimetype='application/json; charset=utf-8'
-    )
+    response = handle_response(status, res_json)
 
     return response
 
 
 @app.route('/deluser', methods=['POST'])
 def remove_emp():
-    user = request.args.get('user')
-    res = myWorker.remove_employee(user)
-    bRest = False
-    if res > 0:
-        bRest = True
 
-    return handle_response(bRest, "")
+    status = 400
+    result = False
+    user = request.args.get('user')
+    if user:
+        result = myWorker.remove_employee(user)
+        if result:
+            status = 200
+
+    return handle_response(status, "")
 
 
 @app.route('/deldb', methods=['POST'])
@@ -128,8 +144,16 @@ def delete_database():
 
 @app.route('/loadnewdb', methods=['POST'])
 def load_new_db():
+    res_json = dict()
+    status = 400
+    result = False
     new_db_file_name = request.args.get('file')
-    return json.dumps(myWorker.load_new_db(new_db_file_name))
+    if new_db_file_name:
+        res_json = json.dumps(myWorker.load_new_db(new_db_file_name))
+        if any(res_json):
+                status = 200
+
+    return handle_response(status, res_json)
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
