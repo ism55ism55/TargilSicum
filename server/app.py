@@ -1,6 +1,7 @@
 import json
 from flask import Flask, request
-from TargilSicum.server import myworker
+#from TargilSicum.server import myworker
+from server import myworker
 
 json_data_file = ".\\employesObj.json"
 success_json = ".\\success.json"
@@ -33,8 +34,8 @@ def handle_response(res, val):
 
 
 @app.route('/', methods=['GET'])
-def hello_world():
-    return 'Ping-Pong'
+def echo():
+    return 'Server is alive'
 
 
 
@@ -148,14 +149,17 @@ def delete_database():
 def load_new_db():
     res_json = dict()
     status = 400
-    result = False
     new_db_file_name = request.args.get('file')
     if new_db_file_name:
-        res_json = json.dumps(myWorker.load_new_db(new_db_file_name))
+        if new_db_file_name == "reload":
+            new_db_file_name = json_data_file
+        res_json = myWorker.load_new_db(new_db_file_name)
+        #res_json = json.dumps(myWorker.load_new_db(new_db_file_name))
         if any(res_json):
                 status = 200
 
     return handle_response(status, res_json)
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

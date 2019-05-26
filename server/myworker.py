@@ -1,10 +1,11 @@
 import json
-import TargilSicum.Logger
+#import TargilSicum.Logger
+import Logger
 
 class Worker:
 
     json_data = dict()
-    logger = TargilSicum.Logger.get_logger(log_path='.\\', log_name='ServerLogger')
+    logger = Logger.get_logger(log_path='.\\', log_name='ServerLogger')
 
     def __init__(self, json_file_path ):
         self.logger.debug("Starting Server")
@@ -52,18 +53,24 @@ class Worker:
 
     def add_employee(self, json_obj):
         # Suggested "fix"
-        # if self.check_num_of_employees() >10:
+        # if self.check_num_of_employees() >=10:
         #     return  False
 
         for entry in json_obj['employies']:
-            if json_obj['employies'][entry]['name'] != "" and json_obj['employies'][entry]['salary'] != "" and json_obj['employies'][entry]['department'] != "" \
-                and json_obj['employies'][entry]['programs'] != "" and json_obj['employies'][entry]['birthday'] != "" and json_obj['employies'][entry]['adress']:
-                if not self.check_if_user_exists(json_obj['employies'][entry]['name']):
-                    if self.json_data['employies'].update(json_obj['employies']) is None:
-                        self.write_to_json_file (json_file_path="")
-                        return True
+            for field in json_obj['employies'][entry]:
+                if not any(field):
+                    self.logger.debug("Failed Adding new user one of the values is empty: " + str(json_obj))
+                    break;
+                        # if json_obj['employies'][entry]['name'] != "" and json_obj['employies'][entry]['salary'] != "" and json_obj['employies'][entry]['department'] != "" \
+                        #     and json_obj['employies'][entry]['programs'] != "" and json_obj['employies'][entry]['birthday'] != "" and json_obj['employies'][entry]['adress']:
+            if not self.check_if_user_exists(json_obj['employies'][entry]['name']):
+                if self.json_data['employies'].update(json_obj['employies']) is None:
+                    self.write_to_json_file (json_file_path="")
+                    self.logger.debug("Adding user {} to DB".format(json_obj['employies'][entry]))
+
+                    return True
             else:
-                    self.logger.debug("Failed Adding new user one of the values is empty: " + str(json_obj) )
+                self.logger.debug("Failed Adding user {} values already exists".format(json_obj['employies'][entry]))
 
         return False
 
@@ -112,7 +119,7 @@ class Worker:
                         new_salary = int(self.json_data['employies'][username]['salary'])
                         new_salary += new_salary * int(percentage)/100
                         self.json_data['employies'][username]['salary'] = new_salary
-                        self.write_to_json_file (json_file_path="")
+                        self.write_to_json_file(json_file_path="")
                         self.logger.debug("Found user {} Adding Salary, new Salry is {}".format(self.json_data['employies'][username]['name'], self.json_data['employies'][username]['salary']))
                     else:
                         self.logger.debug("Found user {} no salary defined {}".format(self.json_data['employies'][username]['Name'],self.json_data['employies'][username]['salary']))
@@ -137,7 +144,6 @@ class Worker:
         if username and program:
             for name in self.json_data['employies']:
                 if name == username:
-                #    self.json_data['employies'][name]['programs'] = [self.json_data['employies'][name]['programs'] , program]
                     self.json_data['employies'][name]['programs'].append(program)
                     self.logger.debug("Found user {} adding programming language, new programs list is ".format(username,self.json_data['employies'][name]['programs']))
                     self.write_to_json_file(json_file_path="")

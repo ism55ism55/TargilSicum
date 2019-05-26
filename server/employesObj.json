@@ -55,6 +55,21 @@
                 "snake"
             ],
             "adress": "Haifa"
+        },
+        "ilan": {
+            "name": "ilan",
+            "birthday": {
+                "day": 14,
+                "year": 1973,
+                "month": 14
+            },
+            "department": "qa",
+            "salary": 3333333,
+            "programs": [
+                "python",
+                "snake"
+            ],
+            "adress": "Haifa"
         }
     }
 }
