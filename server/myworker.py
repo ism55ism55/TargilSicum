@@ -18,20 +18,26 @@ class Worker:
             json_file_path = self.global_db_path
 
         json_from_dict = json.dumps(self.json_data,indent=4)
-        with open(json_file_path, 'w') as out_file:
-            out_file.write(json_from_dict)
-        out_file.close()
+        try:
+            with open(json_file_path, 'w') as out_file:
+                out_file.write(json_from_dict)
+                out_file.close()
+        except IOError as error:
+            self.logger.debug("Exception: content {}".format(error))
+
 
 
     def get_json_data_from_file(self, json_file_path):
-        with open(json_file_path, 'r') as in_file:
-            json_content = in_file.read().translate('UTF-8')
-            in_file.close()
+        try:
+            with open(json_file_path, 'r') as in_file:
+                json_content = in_file.read().translate('UTF-8')
+                in_file.close()
+        except IOError as error:
+            self.logger.debug("Exception: content {}".format(error))
         return json_content
 
 
     def check_if_user_exists(self, username):
-
         obj = self.json_data['employies']
 
         if username in obj:
@@ -47,7 +53,7 @@ class Worker:
     def add_employee(self, json_obj):
         # Suggested "fix"
         # if self.check_num_of_employees() >10:
-        #     return  len(self.json_data['employies'])
+        #     return  False
 
         for entry in json_obj['employies']:
             if json_obj['employies'][entry]['name'] != "" and json_obj['employies'][entry]['salary'] != "" and json_obj['employies'][entry]['department'] != "" \

@@ -10,18 +10,27 @@ base_url = "http://127.0.0.1:5000"
 logger = TargilSicum.Logger.get_logger(log_path='.\\', log_name='ClientLogger')
 
 def load_test_db(db_file):
-    with open(db_file, 'r') as in_file:
-        json_content = in_file.read().translate('UTF-8')
+    try:
+        with open(db_file, 'r') as in_file:
+            json_content = in_file.read().translate('UTF-8')
+    except IOError as error:
+        logger.debug("Exception: content {}".format(error))
 
-    in_file.close()
+    if in_file is not None:
+        in_file.close()
     return json_content
 
 
 def test_cant_add_more_then_10():
+
     json_in = json.loads(load_test_db(test_db_file))
 
     for idx in range(len(json_in['employies'])):
-        res = requests.post(url = base_url + "/addemployee", json= json_in)
+        try:
+            res = requests.post(url = base_url + "/addemployee", json= json_in)
+        except requests.exceptions as error:
+            logger.debug("Exception: content {}".format(error))
+
         if res.status_code in [400, 200]:
             json_data = json.loads(res.text)
             if any(json_data['response']['employies']):
@@ -33,7 +42,11 @@ def test_cant_add_more_then_10():
 
 def test_high_salary():
     ## test success if i increase sallery by x % and no one pass the 35000 boundery
-        res = requests.post(url=base_url + "/update_salary_all?incprecent=20")
+        try:
+            res = requests.post(url=base_url + "/update_salary_all?incprecent=20")
+        except requests.exceptions as error:
+            logger.debug("Exception: content {}".format(error))
+
         if res.status_code in [400, 200]:
             json_data = json.loads(res.text)
             if any(json_data['response']['employies']):
@@ -54,8 +67,11 @@ def test_employee_bd_this_month():
 
     today = datetime.now().today()
     found_db = False
+    try:
+        res = requests.get(url=base_url + "/birthday_employee?month="+str(today.month))
+    except requests.exceptions as error:
+        logger.debug("Exception: content {}".format(error))
 
-    res = requests.get(url=base_url + "/birthday_employee?month="+str(today.month))
     if res.status_code in [400, 200]:
         json_data = json.loads(res.text)
         if any(json_data['response']):
@@ -72,7 +88,11 @@ def test_del_employee():
 
     test_res = False
     user_to_remove = "ilan"
-    res = requests.post(url=base_url + "/deluser?user=" + user_to_remove )
+    try:
+        res = requests.post(url=base_url + "/deluser?user=" + user_to_remove )
+    except requests.exceptions as error:
+        logger.debug("Exception: content {}".format(error))
+
     if res.status_code in [400, 200]:
         json_data = json.loads(res.text)
         if any(json_data['response']):
@@ -96,10 +116,14 @@ def test_add_exisitng_employee():
     json_in = json.loads(load_test_db(test_db_file))
 
     for idx in range(len(json_in['employies'])):
-        res = requests.post(url=base_url + "/addemployee", json=json_in)
+        try:
+            res = requests.post(url=base_url + "/addemployee", json=json_in)
+        except requests.exceptions as error:
+            logger.debug("Exception: content {}".format(error))
+
         if res.status_code in [400, 200]:
             json_data = json.loads(res.text)
-            
+
                 if len(json_data['response']['employies']) > 10:
                     logger.debug(
                         "More then 10, actual number:{}- Test failed".format(len(json_data['response']['employies'])))
