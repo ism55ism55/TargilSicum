@@ -21,7 +21,11 @@ def load_test_db(db_file):
     return json_content
 
 
+@pytest.mark.servertest
 def test_cant_add_more_then_10():
+
+    ## Using a json::in file and running through the entries trying to add more than 10 users
+    ## if is succeed then Test == FAILS
 
     json_in = json.loads(load_test_db(test_db_file))
 
@@ -39,9 +43,10 @@ def test_cant_add_more_then_10():
                     assert False
     assert True
 
-
+@pytest.mark.servertest
 def test_high_salary():
-    ## test success if i increase sallery by x % and no one pass the 35000 boundery
+    ## Increasing Sallary by 20% to all
+    ## Passing the test if found Sallary > 35000
         try:
             res = requests.post(url=base_url + "/update_salary_all?incprecent=20")
         except requests.exceptions as error:
@@ -63,8 +68,10 @@ def test_high_salary():
 #     assert len(employee_list) > 0
 #
 
+@pytest.mark.servertest
 def test_employee_bd_this_month():
 
+    ## Test is successful is i find emp with BD this month
     today = datetime.now().today()
     found_db = False
     try:
@@ -83,9 +90,10 @@ def test_employee_bd_this_month():
     assert found_db
 
 
-
+@pytest.mark.servertest
 def test_del_employee():
 
+    ## trying to remove user Passing test if success , Failing is remove failed from some reason
     test_res = False
     user_to_remove = "ilan"
     try:
@@ -110,9 +118,10 @@ def test_del_employee():
     assert test_res
 
 
-
+@pytest.mark.servertest
 def test_add_exisitng_employee():
 
+    ## trying to add existing emp if success then failing the test 
     json_in = json.loads(load_test_db(test_db_file))
 
     try:
