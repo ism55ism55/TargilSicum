@@ -115,18 +115,32 @@ def test_add_exisitng_employee():
 
     json_in = json.loads(load_test_db(test_db_file))
 
-    for idx in range(len(json_in['employies'])):
-        try:
-            res = requests.post(url=base_url + "/addemployee", json=json_in)
-        except requests.exceptions as error:
-            logger.debug("Exception: content {}".format(error))
+    try:
+        res = requests.post(url=base_url + "/addemployee", json=json_in)
+    except requests.exceptions as error:
+        logger.debug("Exception: content {}".format(error))
 
-        if res.status_code in [400, 200]:
-            json_data = json.loads(res.text)
+    json_data = json.loads(res.text)
+    added_user= json_in['employies']['name']
 
-                if len(json_data['response']['employies']) > 10:
+    if res.status_code == 200:
+        if added_user in json_data['response']['employies']:
+           test_res = True
+           logger.debug("User {} ".format(added_user))
+        else:
+            test_res = False
+            logger.debug("Server resondes with success for adding existing user {} however it isnt found in DB ???".format(added_user))
+
+    else:
+        if added_user in json_data['response']['employies']:
+            test_res = True
+            logger.debug("User {} found and was wasnt removed".format(added_user))
+                else:
+                    test_res = False
                     logger.debug(
-                        "More then 10, actual number:{}- Test failed".format(len(json_data['response']['employies'])))
+                        "Server resondes with success for adding existing user {} however it isnt found in DB ???".format(
+                            added_user))
+
                     assert False
     assert True
 
