@@ -91,9 +91,22 @@ def test_del_employee():
 
 
 
-# def test_add_exisitng_employee():
-#     assert myWorker.check_if_user_exists("ilan") == True
+def test_add_exisitng_employee():
+
+    json_in = json.loads(load_test_db(test_db_file))
+
+    for idx in range(len(json_in['employies'])):
+        res = requests.post(url=base_url + "/addemployee", json=json_in)
+        if res.status_code in [400, 200]:
+            json_data = json.loads(res.text)
+            
+                if len(json_data['response']['employies']) > 10:
+                    logger.debug(
+                        "More then 10, actual number:{}- Test failed".format(len(json_data['response']['employies'])))
+                    assert False
+    assert True
+
 
 
 if __name__ == "__main__":
-    test_del_employee()
+    test_add_exisitng_employee()
