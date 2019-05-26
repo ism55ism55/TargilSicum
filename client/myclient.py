@@ -2,6 +2,7 @@ import pytest
 import requests
 import json
 import TargilSicum.Logger
+from datetime import datetime
 
 
 test_db_file = ".\\inJson.json"
@@ -17,7 +18,6 @@ def load_test_db(db_file):
 
 
 def test_cant_add_more_then_10():
-
     json_in = json.loads(load_test_db(test_db_file))
 
     for idx in range(len(json_in['employies'])):
@@ -33,7 +33,6 @@ def test_cant_add_more_then_10():
 
 def test_high_salary():
     ## test success if i increase sallery by x % and no one pass the 35000 boundery
-
         res = requests.post(url=base_url + "/update_salary_all?incprecent=20")
         if res.status_code in [400, 200]:
             json_data = json.loads(res.text)
@@ -50,12 +49,24 @@ def test_high_salary():
 #     employee_list = myWorker.employee_age()
 #     assert len(employee_list) > 0
 #
-# def test_employee_bd_this_month():
-#     employee_list = myWorker.birthday_employees('1')
-#     if len(employee_list) >0:
-#         print("List of employees with BD this month {}".format(employee_list))
-#     assert len(employee_list) > 0
-#
+
+def test_employee_bd_this_month():
+
+    today = datetime.now().today()
+    found_db = False
+
+    res = requests.get(url=base_url + "/birthday_employee?month="+str(today.month))
+    if res.status_code in [400, 200]:
+        json_data = json.loads(res.text)
+        if any(json_data['response']):
+            for empl in json_data['response']:
+                #if int(json_data['response'][empl]['birthday']['month']) == today.month:
+                logger.debug("Found user {} with birthday - Test".format(empl))
+                found_db = True
+
+    assert found_db
+
+
 #
 # def test_del_employee():
 #     assert myWorker.remove_employee("ilan") == False
@@ -66,4 +77,4 @@ def test_high_salary():
 
 
 if __name__ == "__main__":
-    test_high_salary()
+    test_employee_bd_this_month()

@@ -92,7 +92,7 @@ def update_prog_lang():
     return response
 
 
-@app.route('/birthday_employee', methods=['POST'])
+@app.route('/birthday_employee', methods=['GET'])
 def get_bd_employees():
     res_json = dict()
     status = 400

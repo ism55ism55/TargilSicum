@@ -1,4 +1,3 @@
-import datetime
 import json
 import TargilSicum.Logger
 
@@ -123,7 +122,7 @@ class Worker:
         bd_this_month = dict()
         for name in self.json_data['employies']:
             if int(month) == self.json_data['employies'][name]['birthday']['month']:
-                    bd_this_month[name]=self.json_data['employies'][name]
+                    bd_this_month[name] = self.json_data['employies'][name]
                     self.logger.debug("Found user {} is celebrating birthday this month".format(self.json_data['employies'][name]['name']))
         return bd_this_month
 

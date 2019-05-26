@@ -20,7 +20,7 @@
             "birthday": {
                 "day": 2,
                 "year": 1990,
-                "month": 1
+                "month": 5
             },
             "department": "dev",
             "salary": 58831.2,
@@ -46,7 +46,7 @@
             "birthday": {
                 "day": 1,
                 "year": 1947,
-                "month": 8
+                "month": 5
             },
             "department": "qa",
             "salary": 53486.4,
@@ -55,21 +55,7 @@
                 "snake"
             ],
             "adress": "Haifa"
-        },
-        "ilan": {
-            "name": "ilan",
-            "birthday": {
-                "day": 14,
-                "year": 1973,
-                "month": 14
-            },
-            "department": "qa",
-            "salary": 35664374.4,
-            "programs": [
-                "python",
-                "snake"
-            ],
-            "adress": "Haifa"
         }
+
     }
 }
