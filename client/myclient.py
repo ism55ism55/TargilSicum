@@ -1,16 +1,25 @@
 import pytest
-from server import myworker
 import requests
+import json
 
-json_data_file = "C:\\Users\\user96\\PycharmProjects\\TargilSicum\\employesObj.json"
-myWorker = myworker.Worker(json_data_file)
+test_db_file = "C:\\Users\\user96\\PycharmProjects\\TargilSicum\\testDB.json"
+#myWorker = myworker.Worker(json_data_file)
+base_url = "127.0.0.1:5000"
 
 
+def load_test_db(self):
+    with open(test_db_file, 'r') as in_file:
+        json_content = in_file.read().translate('UTF-8')
+        in_file.close()
+    return json_content
 
 
 def test_cant_add_more_then_10():
+    json_in = json.loads(load_test_db())
+    for idx in range(10):
 
-    assert myWorker.add_employee("ilan", "10000", "qa", "10//10//1973", "python", "Haifa") >= 10
+        res_json = requests.post(url = base_url + "/loadnewdb?file=morethen10.json", json= json_in)
+    assert len(res_json) > 10
 
 
 def test_high_salary():
