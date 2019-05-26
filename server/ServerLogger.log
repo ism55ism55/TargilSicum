@@ -919,3 +919,235 @@
 2019-05-25 18:16:16,000-ServerLogger-DEBUG-Loading DB
 2019-05-25 18:16:17,352-ServerLogger-DEBUG-Starting Server
 2019-05-25 18:16:17,353-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:21:08,095-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:21:08,096-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:21:09,011-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:21:09,011-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:46:52,984-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:46:52,984-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:46:53,434-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:46:53,434-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:47:13,066-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:47:13,066-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:47:13,514-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:47:13,514-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:47:16,005-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:47:16,005-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:47:16,467-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:47:16,467-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:53:52,927-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 09:54:02,851-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 09:54:39,572-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:54:39,572-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:54:40,513-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:54:40,513-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:55:30,809-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 09:56:52,841-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 09:57:48,611-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:57:48,611-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:59:01,562-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:59:01,562-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:59:02,534-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:59:02,535-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:59:19,370-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:59:19,371-ServerLogger-DEBUG-Loading DB
+2019-05-26 09:59:19,819-ServerLogger-DEBUG-Starting Server
+2019-05-26 09:59:19,819-ServerLogger-DEBUG-Loading DB
+2019-05-26 10:00:57,079-ServerLogger-DEBUG-Starting Server
+2019-05-26 10:00:57,079-ServerLogger-DEBUG-Loading DB
+2019-05-26 10:00:57,537-ServerLogger-DEBUG-Starting Server
+2019-05-26 10:00:57,538-ServerLogger-DEBUG-Loading DB
+2019-05-26 10:01:50,174-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:02:20,688-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:02:28,991-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:02:45,494-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:05:37,673-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:05:48,984-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:06:24,788-ServerLogger-DEBUG-Starting Server
+2019-05-26 10:06:24,789-ServerLogger-DEBUG-Loading DB
+2019-05-26 10:06:25,696-ServerLogger-DEBUG-Starting Server
+2019-05-26 10:06:25,697-ServerLogger-DEBUG-Loading DB
+2019-05-26 10:11:27,124-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:28,825-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:29,786-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:30,569-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:30,939-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:31,306-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:31,839-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:32,622-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:33,294-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:33,653-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:34,011-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:54,130-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:54,136-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:54,850-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:55,197-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:55,557-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:56,276-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:57,115-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:57,494-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:11:59,076-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:12:00,115-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:12:02,770-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:12:20,484-ServerLogger-DEBUG-Starting Server
+2019-05-26 10:12:20,484-ServerLogger-DEBUG-Loading DB
+2019-05-26 10:12:32,376-ServerLogger-DEBUG-Starting Server
+2019-05-26 10:12:32,377-ServerLogger-DEBUG-Loading DB
+2019-05-26 10:12:59,064-ServerLogger-DEBUG-Starting Server
+2019-05-26 10:12:59,065-ServerLogger-DEBUG-Loading DB
+2019-05-26 10:12:59,980-ServerLogger-DEBUG-Starting Server
+2019-05-26 10:12:59,980-ServerLogger-DEBUG-Loading DB
+2019-05-26 10:13:19,376-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:13:22,386-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:13:22,748-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:13:23,108-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:13:28,951-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:13:31,295-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:13:38,312-ServerLogger-DEBUG-Starting Server
+2019-05-26 10:13:38,312-ServerLogger-DEBUG-Loading DB
+2019-05-26 10:13:39,248-ServerLogger-DEBUG-Starting Server
+2019-05-26 10:13:39,249-ServerLogger-DEBUG-Loading DB
+2019-05-26 10:14:35,547-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 10:15:10,539-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 13:47:43,903-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 13:48:44,813-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 13:51:19,408-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 13:56:15,163-ServerLogger-DEBUG-Starting Server
+2019-05-26 13:56:15,164-ServerLogger-DEBUG-Loading DB
+2019-05-26 13:56:16,116-ServerLogger-DEBUG-Starting Server
+2019-05-26 13:56:16,116-ServerLogger-DEBUG-Loading DB
+2019-05-26 13:57:42,988-ServerLogger-DEBUG-Starting Server
+2019-05-26 13:57:42,989-ServerLogger-DEBUG-Loading DB
+2019-05-26 13:57:58,666-ServerLogger-DEBUG-Starting Server
+2019-05-26 13:57:58,667-ServerLogger-DEBUG-Loading DB
+2019-05-26 13:57:59,139-ServerLogger-DEBUG-Starting Server
+2019-05-26 13:57:59,139-ServerLogger-DEBUG-Loading DB
+2019-05-26 13:58:07,078-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:31:54,890-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:31:54,890-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:31:55,859-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:31:55,860-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:32:06,082-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:33:33,363-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:38:35,257-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:38:35,258-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:38:53,907-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:38:53,908-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:38:54,880-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:38:54,881-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:39:05,279-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:40:08,956-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:42:48,322-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:43:15,637-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:43:15,638-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:43:16,598-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:43:16,598-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:44:06,391-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:45:16,852-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:45:37,309-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:45:51,964-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:52:05,343-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:53:41,628-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:53:41,628-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:53:42,088-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:53:42,088-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:53:44,601-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:54:55,478-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:54:55,479-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:54:56,461-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:54:56,462-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:55:06,021-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:55:06,021-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:55:06,937-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:55:06,937-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:55:14,130-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:55:59,988-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:57:34,210-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:58:20,786-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:58:20,786-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:58:21,717-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:58:21,717-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:58:47,577-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 14:59:01,174-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:59:01,175-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:59:02,122-ServerLogger-DEBUG-Starting Server
+2019-05-26 14:59:02,123-ServerLogger-DEBUG-Loading DB
+2019-05-26 14:59:41,347-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 15:00:06,300-ServerLogger-DEBUG-User exists - not adding the new user ilan
+2019-05-26 15:22:05,186-ServerLogger-DEBUG-Starting Server
+2019-05-26 15:22:05,186-ServerLogger-DEBUG-Loading DB
+2019-05-26 15:22:06,133-ServerLogger-DEBUG-Starting Server
+2019-05-26 15:22:06,133-ServerLogger-DEBUG-Loading DB
+2019-05-26 15:22:29,105-ServerLogger-DEBUG-Starting Server
+2019-05-26 15:22:29,105-ServerLogger-DEBUG-Loading DB
+2019-05-26 15:22:30,025-ServerLogger-DEBUG-Starting Server
+2019-05-26 15:22:30,025-ServerLogger-DEBUG-Loading DB
+2019-05-26 15:22:35,141-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 6000.0
+2019-05-26 15:22:35,149-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 6600.0
+2019-05-26 15:22:35,157-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 12000.0
+2019-05-26 15:22:35,164-ServerLogger-DEBUG-Found user david Adding Salary, new Salry is 6000.0
+2019-05-26 15:22:35,171-ServerLogger-DEBUG-Found user ilan Adding Salary, new Salry is 3999999.6
+2019-05-26 15:23:28,637-ServerLogger-DEBUG-Starting Server
+2019-05-26 15:23:28,637-ServerLogger-DEBUG-Loading DB
+2019-05-26 15:23:29,594-ServerLogger-DEBUG-Starting Server
+2019-05-26 15:23:29,595-ServerLogger-DEBUG-Loading DB
+2019-05-26 15:23:34,468-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 7200.0
+2019-05-26 15:23:34,476-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 7920.0
+2019-05-26 15:23:34,482-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 14400.0
+2019-05-26 15:23:34,489-ServerLogger-DEBUG-Found user david Adding Salary, new Salry is 7200.0
+2019-05-26 15:23:34,496-ServerLogger-DEBUG-Found user ilan Adding Salary, new Salry is 4799998.8
+2019-05-26 15:26:06,967-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 8640.0
+2019-05-26 15:26:06,974-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 9504.0
+2019-05-26 15:26:06,982-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 17280.0
+2019-05-26 15:26:06,988-ServerLogger-DEBUG-Found user david Adding Salary, new Salry is 8640.0
+2019-05-26 15:26:06,995-ServerLogger-DEBUG-Found user ilan Adding Salary, new Salry is 5759997.6
+2019-05-26 15:27:51,474-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 10368.0
+2019-05-26 15:27:51,483-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 11404.8
+2019-05-26 15:27:51,491-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 20736.0
+2019-05-26 15:27:51,498-ServerLogger-DEBUG-Found user david Adding Salary, new Salry is 10368.0
+2019-05-26 15:27:51,505-ServerLogger-DEBUG-Found user ilan Adding Salary, new Salry is 6911996.4
+2019-05-26 15:28:25,440-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 12441.6
+2019-05-26 15:28:25,447-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 13684.8
+2019-05-26 15:28:25,455-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 24883.2
+2019-05-26 15:28:25,462-ServerLogger-DEBUG-Found user david Adding Salary, new Salry is 12441.6
+2019-05-26 15:28:25,469-ServerLogger-DEBUG-Found user ilan Adding Salary, new Salry is 8294395.2
+2019-05-26 15:29:09,690-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 14929.2
+2019-05-26 15:29:09,697-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 16420.8
+2019-05-26 15:29:09,706-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 29859.6
+2019-05-26 15:29:09,713-ServerLogger-DEBUG-Found user david Adding Salary, new Salry is 14929.2
+2019-05-26 15:29:09,720-ServerLogger-DEBUG-Found user ilan Adding Salary, new Salry is 9953274.0
+2019-05-26 15:29:23,608-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 17914.8
+2019-05-26 15:29:23,615-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 19704.0
+2019-05-26 15:29:23,623-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 35830.8
+2019-05-26 15:29:23,630-ServerLogger-DEBUG-Found user david Adding Salary, new Salry is 17914.8
+2019-05-26 15:29:23,637-ServerLogger-DEBUG-Found user ilan Adding Salary, new Salry is 11943928.8
+2019-05-26 15:29:29,804-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 21496.8
+2019-05-26 15:29:29,811-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 23644.8
+2019-05-26 15:29:29,818-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 42996.0
+2019-05-26 15:29:29,825-ServerLogger-DEBUG-Found user david Adding Salary, new Salry is 21496.8
+2019-05-26 15:29:29,832-ServerLogger-DEBUG-Found user ilan Adding Salary, new Salry is 14332713.6
+2019-05-26 15:30:20,083-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 25795.2
+2019-05-26 15:30:20,092-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 28372.8
+2019-05-26 15:30:20,099-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 51595.2
+2019-05-26 15:30:20,108-ServerLogger-DEBUG-Found user david Adding Salary, new Salry is 25795.2
+2019-05-26 15:30:20,116-ServerLogger-DEBUG-Found user ilan Adding Salary, new Salry is 17199255.6
+2019-05-26 15:30:39,485-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 30954.0
+2019-05-26 15:30:39,492-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 34046.4
+2019-05-26 15:30:39,498-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 61914.0
+2019-05-26 15:30:39,506-ServerLogger-DEBUG-Found user david Adding Salary, new Salry is 30954.0
+2019-05-26 15:30:39,513-ServerLogger-DEBUG-Found user ilan Adding Salary, new Salry is 20639106.0
+2019-05-26 15:31:15,035-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 37144.8
+2019-05-26 15:31:15,043-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 40855.2
+2019-05-26 15:31:15,050-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 74296.8
+2019-05-26 15:31:15,057-ServerLogger-DEBUG-Found user david Adding Salary, new Salry is 37144.8
+2019-05-26 15:31:15,064-ServerLogger-DEBUG-Found user ilan Adding Salary, new Salry is 24766927.2
+2019-05-26 15:31:24,121-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 44572.8
+2019-05-26 15:31:24,130-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 49026.0
+2019-05-26 15:31:24,139-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 89155.2
+2019-05-26 15:31:24,146-ServerLogger-DEBUG-Found user david Adding Salary, new Salry is 44572.8
+2019-05-26 15:31:24,153-ServerLogger-DEBUG-Found user ilan Adding Salary, new Salry is 29720312.4
+2019-05-26 15:32:12,192-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 53486.4
+2019-05-26 15:32:12,200-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 58831.2
+2019-05-26 15:32:12,207-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 106986.0
+2019-05-26 15:32:12,214-ServerLogger-DEBUG-Found user david Adding Salary, new Salry is 53486.4
+2019-05-26 15:32:12,222-ServerLogger-DEBUG-Found user ilan Adding Salary, new Salry is 35664374.4

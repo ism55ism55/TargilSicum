@@ -1,6 +1,6 @@
 import json
 from flask import Flask, request
-from server import myworker
+from TargilSicum.server import myworker
 
 json_data_file = ".\\employesObj.json"
 success_json = ".\\success.json"
@@ -17,10 +17,10 @@ json_fail_res = json.loads(myWorker.get_json_data_from_file(fail_json))
 def handle_response(res, val):
 
     if res is 200:
-        response = json.dumps({'Server Status:': 'Success', 'response': val})
+        response = json.dumps({'response': val})
         status = 200
     else:
-        response = json.dumps({'Server Status:': 'Fail', 'response': val})
+        response = json.dumps({'response': val})
         status = 400
 
     response = app.response_class(
@@ -50,6 +50,7 @@ def add_employee():
         res = myWorker.add_employee(json_data)
         if res:
             status = 200
+    json_data = myWorker.load_new_db(json_data_file)
     return handle_response(status, json_data)
 
 

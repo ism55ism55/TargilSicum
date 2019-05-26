@@ -8,7 +8,7 @@
                 "month": 8
             },
             "department": "qa",
-            "salary": 5000,
+            "salary": 53486.4,
             "programs": [
                 "python",
                 "snake"
@@ -23,7 +23,7 @@
                 "month": 1
             },
             "department": "dev",
-            "salary": 5500,
+            "salary": 58831.2,
             "programs": [],
             "adress": "telAviv"
         },
@@ -35,7 +35,7 @@
                 "month": 12
             },
             "department": "qa",
-            "salary": 10000,
+            "salary": 106986.0,
             "programs": [
                 "excel"
             ],
@@ -49,7 +49,7 @@
                 "month": 8
             },
             "department": "qa",
-            "salary": 5000,
+            "salary": 53486.4,
             "programs": [
                 "python",
                 "snake"
@@ -61,14 +61,13 @@
             "birthday": {
                 "day": 14,
                 "year": 1973,
-                "month": 8
+                "month": 14
             },
             "department": "qa",
-            "salary": 3333333,
+            "salary": 35664374.4,
             "programs": [
                 "python",
-                "snake",
-                "pascal"
+                "snake"
             ],
             "adress": "Haifa"
         }

@@ -1,11 +1,11 @@
 import datetime
 import json
-import Logger
+import TargilSicum.Logger
 
 class Worker:
 
     json_data = dict()
-    logger = Logger.get_logger(log_path='.\\', log_name='ServerLogger')
+    logger = TargilSicum.Logger.get_logger(log_path='.\\', log_name='ServerLogger')
 
     def __init__(self, json_file_path ):
         self.logger.debug("Starting Server")
