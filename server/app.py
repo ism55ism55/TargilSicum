@@ -134,8 +134,9 @@ def remove_emp():
         result = myWorker.remove_employee(user)
         if result:
             status = 200
+    json_data = myWorker.load_new_db(json_data_file)
+    return handle_response(status, json_data)
 
-    return handle_response(status, "")
 
 
 @app.route('/deldb', methods=['POST'])

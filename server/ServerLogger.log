@@ -1213,3 +1213,24 @@
 2019-05-26 16:43:08,321-ServerLogger-DEBUG-Found user david is celebrating birthday this month
 2019-05-26 16:43:37,497-ServerLogger-DEBUG-Found user benny is celebrating birthday this month
 2019-05-26 16:43:37,498-ServerLogger-DEBUG-Found user david is celebrating birthday this month
+2019-05-26 16:51:52,423-ServerLogger-DEBUG-Starting Server
+2019-05-26 16:51:52,424-ServerLogger-DEBUG-Loading DB
+2019-05-26 16:51:53,365-ServerLogger-DEBUG-Starting Server
+2019-05-26 16:51:53,365-ServerLogger-DEBUG-Loading DB
+2019-05-26 16:52:05,962-ServerLogger-DEBUG-Starting Server
+2019-05-26 16:52:05,963-ServerLogger-DEBUG-Loading DB
+2019-05-26 16:52:06,880-ServerLogger-DEBUG-Starting Server
+2019-05-26 16:52:06,880-ServerLogger-DEBUG-Loading DB
+2019-05-26 16:52:39,102-ServerLogger-DEBUG-User ilan not found
+2019-05-26 17:02:07,765-ServerLogger-DEBUG-User ilan not found
+2019-05-26 17:02:33,465-ServerLogger-DEBUG-User ilan not found
+2019-05-26 17:04:10,221-ServerLogger-DEBUG-User ilan not found
+2019-05-26 17:05:19,986-ServerLogger-DEBUG-User ilan not found
+2019-05-26 17:05:51,122-ServerLogger-DEBUG-User ilan not found
+2019-05-26 17:07:07,897-ServerLogger-DEBUG-User ilan not found
+2019-05-26 17:07:37,594-ServerLogger-DEBUG-User ilan not found
+2019-05-26 17:08:33,387-ServerLogger-DEBUG-Starting Server
+2019-05-26 17:08:33,387-ServerLogger-DEBUG-Loading DB
+2019-05-26 17:08:34,343-ServerLogger-DEBUG-Starting Server
+2019-05-26 17:08:34,343-ServerLogger-DEBUG-Loading DB
+2019-05-26 17:08:37,142-ServerLogger-DEBUG-Found user ilan removing user

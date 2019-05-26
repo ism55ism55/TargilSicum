@@ -67,14 +67,33 @@ def test_employee_bd_this_month():
     assert found_db
 
 
-#
-# def test_del_employee():
-#     assert myWorker.remove_employee("ilan") == False
-#
-#
+
+def test_del_employee():
+
+    test_res = False
+    user_to_remove = "ilan"
+    res = requests.post(url=base_url + "/deluser?user=" + user_to_remove )
+    if res.status_code in [400, 200]:
+        json_data = json.loads(res.text)
+        if any(json_data['response']):
+            if res.status_code == 400:
+                if user_to_remove in json_data['response']['employies']:
+                    logger.debug("Wasnt able to remove user {}".format(user_to_remove))
+                else:
+                    logger.debug("Wasnt able to remove user {} user not found".format(user_to_remove))
+            else:
+                if user_to_remove in json_data['response']['employies']:
+                    logger.debug("Wasnt able to remove user {}".format(user_to_remove))
+                else:
+                    logger.debug("Employee {} was successfully removed".format(user_to_remove))
+                    test_res = True
+    assert test_res
+
+
+
 # def test_add_exisitng_employee():
 #     assert myWorker.check_if_user_exists("ilan") == True
 
 
 if __name__ == "__main__":
-    test_employee_bd_this_month()
+    test_del_employee()
