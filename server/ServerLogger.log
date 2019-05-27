@@ -1,0 +1,29 @@
+2019-05-27 21:14:23,671-ServerLogger-DEBUG-Starting Server
+2019-05-27 21:14:23,671-ServerLogger-DEBUG-Loading DB
+2019-05-27 21:14:26,562-ServerLogger-DEBUG-Starting Server
+2019-05-27 21:14:26,562-ServerLogger-DEBUG-Loading DB
+2019-05-27 21:15:27,738-ServerLogger-DEBUG-Adding user {'name': 'Blabla', 'birthday': {'day': 1, 'year': 1980, 'month': 3}, 'department': 'dev', 'salary': 22222, 'programs': ['c++'], 'adress': 'Tel-Aviv'} to DB
+2019-05-27 21:16:51,227-ServerLogger-DEBUG-User exists - not adding the new user Blabla
+2019-05-27 21:16:51,227-ServerLogger-DEBUG-Failed Adding user {'name': 'Blabla', 'birthday': {'day': 1, 'year': 1980, 'month': 3}, 'department': 'dev', 'salary': 22222, 'programs': ['c++'], 'adress': 'Tel-Aviv'} values already exists
+2019-05-27 21:16:51,227-ServerLogger-DEBUG-User exists - not adding the new user tony
+2019-05-27 21:16:51,227-ServerLogger-DEBUG-Failed Adding user {'name': 'tony', 'birthday': {'day': 8, 'year': 1999, 'month': 2}, 'department': 'QA', 'salary': 33333, 'programs': [], 'adress': 'Tel-Aviv'} values already exists
+2019-05-27 21:16:51,227-ServerLogger-DEBUG-User exists - not adding the new user Aria
+2019-05-27 21:16:51,227-ServerLogger-DEBUG-Failed Adding user {'name': 'Aria', 'birthday': {'day': 7, 'year': 1950, 'month': 12}, 'department': 'dev', 'salary': 10000, 'programs': ['excel'], 'adress': 'motzkin'} values already exists
+2019-05-27 21:16:51,227-ServerLogger-DEBUG-User exists - not adding the new user jon
+2019-05-27 21:16:51,227-ServerLogger-DEBUG-Failed Adding user {'name': 'jon', 'birthday': {'day': 1, 'year': 1947, 'month': 8}, 'department': 'qa', 'salary': 5000, 'programs': ['python', 'snake'], 'adress': 'Haifa'} values already exists
+2019-05-27 21:16:51,243-ServerLogger-DEBUG-User exists - not adding the new user Yossi
+2019-05-27 21:16:51,243-ServerLogger-DEBUG-Failed Adding user {'name': 'Yossi', 'birthday': {'day': 12, 'year': 1999, 'month': 2}, 'department': 'qa', 'salary': 222223333, 'programs': ['python', 'snake', 'pascal'], 'adress': 'Haifa'} values already exists
+2019-05-27 21:16:51,243-ServerLogger-DEBUG-User exists - not adding the new user bran
+2019-05-27 21:16:51,243-ServerLogger-DEBUG-Failed Adding user {'name': 'bran', 'birthday': {'day': 14, 'year': 1973, 'month': 6}, 'department': 'qa', 'salary': 222223333, 'programs': ['python', 'snake', 'pascal'], 'adress': 'Haifa'} values already exists
+2019-05-27 21:16:51,274-ServerLogger-DEBUG-User exists - not adding the new user Tyrion
+2019-05-27 21:16:51,290-ServerLogger-DEBUG-Failed Adding user {'name': 'Tyrion', 'birthday': {'day': 4, 'year': 1971, 'month': 6}, 'department': 'qa', 'salary': 13333, 'programs': ['snake', 'pascal'], 'adress': 'Jerusalem'} values already exists
+2019-05-27 21:16:51,290-ServerLogger-DEBUG-User exists - not adding the new user Melisandre
+2019-05-27 21:16:51,290-ServerLogger-DEBUG-Failed Adding user {'name': 'Melisandre', 'birthday': {'day': 1, 'year': 1970, 'month': 1}, 'department': 'qa', 'salary': 23333, 'programs': ['snake', 'pascal'], 'adress': 'Haifa'} values already exists
+2019-05-27 22:04:20,813-ServerLogger-DEBUG-Starting Server
+2019-05-27 22:04:20,813-ServerLogger-DEBUG-Loading DB
+2019-05-27 22:04:23,586-ServerLogger-DEBUG-Starting Server
+2019-05-27 22:04:23,588-ServerLogger-DEBUG-Loading DB
+2019-05-27 22:10:31,761-ServerLogger-DEBUG-Starting Server
+2019-05-27 22:10:31,761-ServerLogger-DEBUG-Loading DB
+2019-05-27 22:10:33,682-ServerLogger-DEBUG-Starting Server
+2019-05-27 22:10:33,684-ServerLogger-DEBUG-Loading DB

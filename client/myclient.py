@@ -3,15 +3,16 @@ import requests
 import json
 #import TargilSicum.Logger
 import Logger
+import operator
+from collections import OrderedDict
 from datetime import datetime
 
 
-test_db_file = ".\\inJson.json"
+test_db_file = ".\\testDB.json"
 base_url = "http://127.0.0.1:5000"
 logger = Logger.get_logger(log_path='.\\', log_name='ClientLogger')
 
 def load_test_db(db_file):
-
     json_content = dict()
     try:
         with open(db_file, 'r') as in_file:
@@ -169,5 +170,30 @@ def test_add_exisitng_employee():
 
 
 
+@pytest.mark.servertest
+def sort_by_salary():
+    sort_success = False
+
+    try:
+        res = requests.post(url=base_url + "/loadnewdb?file=reload")
+    except requests.exceptions as error:
+        logger.debug("Exception: content {}".format(error))
+
+    if res.status_code in [400, 200]:
+        json_data = json.loads(res.text)
+        obj = json_data['response']['employies']
+        sorted_obj = dict()
+        sorted_obj = OrderedDict(sorted(obj.items(), key=lambda x: x[1]['salary']))
+
+        if any(sorted_obj):
+            logger.debug("Test Success: sorted list by Salary{}".format(str(sorted_obj)))
+            sort_success = True
+
+        else:
+            logger.debug("Test Failed: failed to soart DB by Salary")
+
+    assert sort_success
+
+
 if __name__ == "__main__":
-    test_pension_age()
+    sort_by_salary()

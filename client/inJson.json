@@ -15,6 +15,117 @@
                 "snake"
             ],
             "adress": "Haifa"
+        },
+          "danny":
+        {
+            "name": "danny",
+            "birthday": {
+                "day": 22,
+                "year": 1920,
+                "month": 1
+            },
+            "department": "dev",
+            "salary": 33333,
+            "programs": [
+                "python",
+                "cpp"
+            ],
+            "adress": "Tel-Aviv"
+        },
+         "benny":
+        {
+            "name": "benny",
+            "birthday": {
+                "day": 2,
+                "year": 1977,
+                "month": 2
+            },
+            "department": "dev",
+            "salary": 222233,
+            "programs": [
+                "cpp"
+            ],
+            "adress": "Tel-Aviv"
+        },
+        "jhony":
+        {
+            "name": "jhony",
+            "birthday": {
+                "day": 1,
+                "year": 1978,
+                "month": 1
+            },
+            "department": "dev",
+            "salary": 545454,
+            "programs": [
+                "java",
+                "cpp",
+                "python"
+            ],
+            "adress": "Tel-Aviv"
+        },
+        "tammy":
+        {
+            "name": "tammy",
+            "birthday": {
+                "day": 1,
+                "year": 1999,
+                "month": 1
+            },
+            "department": "qa",
+            "salary": 12121,
+            "programs": [
+                "cpp"
+            ],
+            "adress": "Haifa"
+        },
+        "brace":
+        {
+            "name": "brace",
+            "birthday": {
+                "day": 3,
+                "year": 1980,
+                "month": 3
+            },
+            "department": "dev",
+            "salary": 12121,
+            "programs": [
+                "cpp"
+            ],
+            "adress": "Haifa"
+        },
+        "dudi":
+        {
+            "name": "dudi",
+            "birthday": {
+                "day": 3,
+                "year": 1999,
+                "month": 3
+            },
+            "department": "qa",
+            "salary": 6666,
+            "programs": [
+                "cpp",
+                "jscript"
+            ],
+            "adress": "Haifa"
+        },
+          "boby":
+        {
+            "name": "boby",
+            "birthday": {
+                "day": 3,
+                "year": 1979,
+                "month": 3
+            },
+            "department": "dev",
+            "salary": 35000,
+            "programs": [
+                "cpp",
+                "jscript"
+            ],
+            "adress": "Tel-Aviv"
         }
+
     }
 }
