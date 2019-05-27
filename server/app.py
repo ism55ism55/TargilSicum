@@ -4,15 +4,10 @@ from flask import Flask, request
 from server import myworker
 
 json_data_file = ".\\employesObj.json"
-success_json = ".\\success.json"
-fail_json = ".\\fail.json"
-
 myWorker = myworker.Worker(json_data_file)
 base_url = "http://127.0.0.1/"
-app = Flask(__name__)
 
-json_success_res = json.loads(myWorker.get_json_data_from_file(success_json))
-json_fail_res = json.loads(myWorker.get_json_data_from_file(fail_json))
+app = Flask(__name__)
 
 
 def handle_response(res, val):

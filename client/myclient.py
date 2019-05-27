@@ -28,8 +28,9 @@ def load_test_db(db_file):
 @pytest.mark.servertest
 def test_cant_add_more_then_10():
 
-    ## Using a json::in file and running through the entries trying to add more than 10 users
-    ## if is succeed then Test == FAILS
+    ## Using a json testDB as input file wich have few entries - test will try to add all entries to
+    ## the exisitn DB - add more than 10 users, if is succeed then Test == FAILS
+    
 
     json_in = json.loads(load_test_db(test_db_file))
 
@@ -194,6 +195,6 @@ def sort_by_salary():
 
     assert sort_success
 
-
-if __name__ == "__main__":
-    sort_by_salary()
+#
+# if __name__ == "__main__":
+#     sort_by_salary()

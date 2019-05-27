@@ -61,8 +61,6 @@ class Worker:
                 if not any(field):
                     self.logger.debug("Failed Adding new user one of the values is empty: " + str(json_obj))
                     break;
-                        # if json_obj['employies'][entry]['name'] != "" and json_obj['employies'][entry]['salary'] != "" and json_obj['employies'][entry]['department'] != "" \
-                        #     and json_obj['employies'][entry]['programs'] != "" and json_obj['employies'][entry]['birthday'] != "" and json_obj['employies'][entry]['adress']:
             if not self.check_if_user_exists(json_obj['employies'][entry]['name']):
                 if self.json_data['employies'].update(json_obj['employies']) is None:
                     self.write_to_json_file (json_file_path="")
