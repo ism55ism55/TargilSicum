@@ -523,3 +523,47 @@
 2019-05-29 21:08:13,768-ServerLogger-DEBUG-Failed Adding user {'name': 'Tyrion', 'birthday': {'day': 4, 'year': 1971, 'month': 6}, 'department': 'qa', 'salary': 13333, 'programs': ['snake', 'pascal'], 'adress': 'Jerusalem'} values already exists
 2019-05-29 21:08:13,769-ServerLogger-DEBUG-User exists - not adding the new user Melisandre
 2019-05-29 21:08:13,774-ServerLogger-DEBUG-Failed Adding user {'name': 'Melisandre', 'birthday': {'day': 1, 'year': 1970, 'month': 1}, 'department': 'qa', 'salary': 23333, 'programs': ['snake', 'pascal'], 'adress': 'Haifa'} values already exists
+2019-05-29 21:16:45,752-ServerLogger-DEBUG-User exists - not adding the new user Blabla
+2019-05-29 21:16:45,753-ServerLogger-DEBUG-Failed Adding user {'name': 'Blabla', 'birthday': {'day': 1, 'year': 1980, 'month': 3}, 'department': 'dev', 'salary': 22222, 'programs': ['c++'], 'adress': 'Tel-Aviv'} values already exists
+2019-05-29 21:16:45,753-ServerLogger-DEBUG-User exists - not adding the new user tony
+2019-05-29 21:16:45,753-ServerLogger-DEBUG-Failed Adding user {'name': 'tony', 'birthday': {'day': 8, 'year': 1999, 'month': 2}, 'department': 'QA', 'salary': 33333, 'programs': [], 'adress': 'Tel-Aviv'} values already exists
+2019-05-29 21:16:45,754-ServerLogger-DEBUG-User exists - not adding the new user Aria
+2019-05-29 21:16:45,754-ServerLogger-DEBUG-Failed Adding user {'name': 'Aria', 'birthday': {'day': 7, 'year': 1950, 'month': 12}, 'department': 'dev', 'salary': 10000, 'programs': ['excel'], 'adress': 'motzkin'} values already exists
+2019-05-29 21:16:45,754-ServerLogger-DEBUG-User exists - not adding the new user jon
+2019-05-29 21:16:45,754-ServerLogger-DEBUG-Failed Adding user {'name': 'jon', 'birthday': {'day': 1, 'year': 1947, 'month': 8}, 'department': 'qa', 'salary': 5000, 'programs': ['python', 'snake'], 'adress': 'Haifa'} values already exists
+2019-05-29 21:16:45,755-ServerLogger-DEBUG-User exists - not adding the new user Yossi
+2019-05-29 21:16:45,755-ServerLogger-DEBUG-Failed Adding user {'name': 'Yossi', 'birthday': {'day': 12, 'year': 1999, 'month': 2}, 'department': 'qa', 'salary': 222223333, 'programs': ['python', 'snake', 'pascal'], 'adress': 'Haifa'} values already exists
+2019-05-29 21:16:45,755-ServerLogger-DEBUG-User exists - not adding the new user bran
+2019-05-29 21:16:45,756-ServerLogger-DEBUG-Failed Adding user {'name': 'bran', 'birthday': {'day': 14, 'year': 1973, 'month': 6}, 'department': 'qa', 'salary': 222223333, 'programs': ['python', 'snake', 'pascal'], 'adress': 'Haifa'} values already exists
+2019-05-29 21:16:45,756-ServerLogger-DEBUG-User exists - not adding the new user Tyrion
+2019-05-29 21:16:45,756-ServerLogger-DEBUG-Failed Adding user {'name': 'Tyrion', 'birthday': {'day': 4, 'year': 1971, 'month': 6}, 'department': 'qa', 'salary': 13333, 'programs': ['snake', 'pascal'], 'adress': 'Jerusalem'} values already exists
+2019-05-29 21:16:45,756-ServerLogger-DEBUG-User exists - not adding the new user Melisandre
+2019-05-29 21:16:45,757-ServerLogger-DEBUG-Failed Adding user {'name': 'Melisandre', 'birthday': {'day': 1, 'year': 1970, 'month': 1}, 'department': 'qa', 'salary': 23333, 'programs': ['snake', 'pascal'], 'adress': 'Haifa'} values already exists
+2019-05-29 21:16:45,861-ServerLogger-DEBUG-Found user adi Adding Salary, new Salry is 53745.6
+2019-05-29 21:16:45,879-ServerLogger-DEBUG-Found user benny Adding Salary, new Salry is 19704.0
+2019-05-29 21:16:45,897-ServerLogger-DEBUG-Found user caroline Adding Salary, new Salry is 35830.8
+2019-05-29 21:16:45,916-ServerLogger-DEBUG-Found user Blabla Adding Salary, new Salry is 79620.0
+2019-05-29 21:16:45,933-ServerLogger-DEBUG-Found user tony Adding Salary, new Salry is 119431.2
+2019-05-29 21:16:45,963-ServerLogger-DEBUG-Found user Aria Adding Salary, new Salry is 35830.8
+2019-05-29 21:16:46,026-ServerLogger-DEBUG-Found user jon Adding Salary, new Salry is 17914.8
+2019-05-29 21:16:46,087-ServerLogger-DEBUG-Found user Yossi Adding Salary, new Salry is 796266374.4
+2019-05-29 21:16:46,150-ServerLogger-DEBUG-Found user bran Adding Salary, new Salry is 796266374.4
+2019-05-29 21:16:46,216-ServerLogger-DEBUG-Found user Tyrion Adding Salary, new Salry is 47767.2
+2019-05-29 21:16:46,344-ServerLogger-DEBUG-Found user Melisandre Adding Salary, new Salry is 83600.4
+2019-05-29 21:16:46,577-ServerLogger-DEBUG-User ilan not found
+2019-05-29 21:16:46,607-ServerLogger-DEBUG-User exists - not adding the new user Blabla
+2019-05-29 21:16:46,608-ServerLogger-DEBUG-Failed Adding user {'name': 'Blabla', 'birthday': {'day': 1, 'year': 1980, 'month': 3}, 'department': 'dev', 'salary': 22222, 'programs': ['c++'], 'adress': 'Tel-Aviv'} values already exists
+2019-05-29 21:16:46,609-ServerLogger-DEBUG-User exists - not adding the new user tony
+2019-05-29 21:16:46,609-ServerLogger-DEBUG-Failed Adding user {'name': 'tony', 'birthday': {'day': 8, 'year': 1999, 'month': 2}, 'department': 'QA', 'salary': 33333, 'programs': [], 'adress': 'Tel-Aviv'} values already exists
+2019-05-29 21:16:46,610-ServerLogger-DEBUG-User exists - not adding the new user Aria
+2019-05-29 21:16:46,610-ServerLogger-DEBUG-Failed Adding user {'name': 'Aria', 'birthday': {'day': 7, 'year': 1950, 'month': 12}, 'department': 'dev', 'salary': 10000, 'programs': ['excel'], 'adress': 'motzkin'} values already exists
+2019-05-29 21:16:46,610-ServerLogger-DEBUG-User exists - not adding the new user jon
+2019-05-29 21:16:46,611-ServerLogger-DEBUG-Failed Adding user {'name': 'jon', 'birthday': {'day': 1, 'year': 1947, 'month': 8}, 'department': 'qa', 'salary': 5000, 'programs': ['python', 'snake'], 'adress': 'Haifa'} values already exists
+2019-05-29 21:16:46,611-ServerLogger-DEBUG-User exists - not adding the new user Yossi
+2019-05-29 21:16:46,611-ServerLogger-DEBUG-Failed Adding user {'name': 'Yossi', 'birthday': {'day': 12, 'year': 1999, 'month': 2}, 'department': 'qa', 'salary': 222223333, 'programs': ['python', 'snake', 'pascal'], 'adress': 'Haifa'} values already exists
+2019-05-29 21:16:46,611-ServerLogger-DEBUG-User exists - not adding the new user bran
+2019-05-29 21:16:46,612-ServerLogger-DEBUG-Failed Adding user {'name': 'bran', 'birthday': {'day': 14, 'year': 1973, 'month': 6}, 'department': 'qa', 'salary': 222223333, 'programs': ['python', 'snake', 'pascal'], 'adress': 'Haifa'} values already exists
+2019-05-29 21:16:46,612-ServerLogger-DEBUG-User exists - not adding the new user Tyrion
+2019-05-29 21:16:46,612-ServerLogger-DEBUG-Failed Adding user {'name': 'Tyrion', 'birthday': {'day': 4, 'year': 1971, 'month': 6}, 'department': 'qa', 'salary': 13333, 'programs': ['snake', 'pascal'], 'adress': 'Jerusalem'} values already exists
+2019-05-29 21:16:46,613-ServerLogger-DEBUG-User exists - not adding the new user Melisandre
+2019-05-29 21:16:46,613-ServerLogger-DEBUG-Failed Adding user {'name': 'Melisandre', 'birthday': {'day': 1, 'year': 1970, 'month': 1}, 'department': 'qa', 'salary': 23333, 'programs': ['snake', 'pascal'], 'adress': 'Haifa'} values already exists

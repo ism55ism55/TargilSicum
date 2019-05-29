@@ -8,7 +8,7 @@
                 "month": 8
             },
             "department": "qa",
-            "salary": 44788.8,
+            "salary": 53745.6,
             "programs": [
                 "python",
                 "snake"
@@ -23,7 +23,7 @@
                 "month": 1
             },
             "department": "dev",
-            "salary": 16420.8,
+            "salary": 19704.0,
             "programs": [],
             "adress": "telAviv"
         },
@@ -35,7 +35,7 @@
                 "month": 12
             },
             "department": "qa",
-            "salary": 29859.6,
+            "salary": 35830.8,
             "programs": [
                 "excel"
             ],
@@ -49,7 +49,7 @@
                 "month": 3
             },
             "department": "dev",
-            "salary": 66350.4,
+            "salary": 79620.0,
             "programs": [
                 "c++"
             ],
@@ -63,7 +63,7 @@
                 "month": 2
             },
             "department": "QA",
-            "salary": 99526.8,
+            "salary": 119431.2,
             "programs": [],
             "adress": "Tel-Aviv"
         },
@@ -75,7 +75,7 @@
                 "month": 12
             },
             "department": "dev",
-            "salary": 29859.6,
+            "salary": 35830.8,
             "programs": [
                 "excel"
             ],
@@ -89,7 +89,7 @@
                 "month": 8
             },
             "department": "qa",
-            "salary": 14929.2,
+            "salary": 17914.8,
             "programs": [
                 "python",
                 "snake"
@@ -104,7 +104,7 @@
                 "month": 2
             },
             "department": "qa",
-            "salary": 663555312.0,
+            "salary": 796266374.4,
             "programs": [
                 "python",
                 "snake",
@@ -120,7 +120,7 @@
                 "month": 6
             },
             "department": "qa",
-            "salary": 663555312.0,
+            "salary": 796266374.4,
             "programs": [
                 "python",
                 "snake",
@@ -136,7 +136,7 @@
                 "month": 6
             },
             "department": "qa",
-            "salary": 39806.4,
+            "salary": 47767.2,
             "programs": [
                 "snake",
                 "pascal"
@@ -151,7 +151,7 @@
                 "month": 1
             },
             "department": "qa",
-            "salary": 69667.2,
+            "salary": 83600.4,
             "programs": [
                 "snake",
                 "pascal"
