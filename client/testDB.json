@@ -1,0 +1,122 @@
+{
+    "employies": {
+        "Blabla": {
+            "name": "Blabla",
+            "birthday": {
+                "day": 1,
+                "year": 1980,
+                "month": 3
+            },
+            "department": "dev",
+            "salary": 22222,
+            "programs": [
+                "c++"
+            ],
+            "adress": "Tel-Aviv"
+        },
+        "tony": {
+            "name": "tony",
+            "birthday": {
+                "day": 8,
+                "year": 1999,
+                "month": 2
+            },
+            "department": "QA",
+            "salary": 33333,
+            "programs": [],
+            "adress": "Tel-Aviv"
+        },
+        "Aria": {
+            "name": "Aria",
+            "birthday": {
+                "day": 7,
+                "year": 1950,
+                "month": 12
+            },
+            "department": "dev",
+            "salary": 10000,
+            "programs": [
+                "excel"
+            ],
+            "adress": "motzkin"
+        },
+        "jon": {
+            "name": "jon",
+            "birthday": {
+                "day": 1,
+                "year": 1947,
+                "month": 8
+            },
+            "department": "qa",
+            "salary": 5000,
+            "programs": [
+                "python",
+                "snake"
+            ],
+            "adress": "Haifa"
+        },
+        "Yossi": {
+            "name": "Yossi",
+            "birthday": {
+                "day": 12,
+                "year": 1999,
+                "month": 2
+            },
+            "department": "qa",
+            "salary": 222223333,
+            "programs": [
+                "python",
+                "snake",
+                "pascal"
+            ],
+            "adress": "Haifa"
+        },
+		"bran": {
+            "name": "bran",
+            "birthday": {
+                "day": 14,
+                "year": 1973,
+                "month": 6
+            },
+            "department": "qa",
+            "salary": 222223333,
+            "programs": [
+                "python",
+                "snake",
+                "pascal"
+            ],
+            "adress": "Haifa"
+        },
+		"Tyrion": {
+            "name": "Tyrion",
+            "birthday": {
+                "day": 4,
+                "year": 1971,
+                "month": 6
+            },
+            "department": "qa",
+            "salary": 13333,
+            "programs": [
+                "snake",
+                "pascal"
+            ],
+            "adress": "Jerusalem"
+        },
+		"Melisandre": {
+            "name": "Melisandre",
+            "birthday": {
+                "day": 1,
+                "year": 1970,
+                "month": 1
+            },
+            "department": "qa",
+            "salary": 23333,
+            "programs": [
+                "snake",
+                "pascal"
+            ],
+            "adress": "Haifa"
+        }
+		
+    }
+}
