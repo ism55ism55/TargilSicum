@@ -1,9 +1,7 @@
 import pytest
 import requests
 import json
-#import TargilSicum.Logger
 import Logger
-import operator
 from collections import OrderedDict
 from datetime import datetime
 
@@ -30,7 +28,7 @@ def test_cant_add_more_then_10():
 
     ## Using a json testDB as input file wich have few entries - test will try to add all entries to
     ## the exisitn DB - add more than 10 users, if is succeed then Test == FAILS
-    
+
 
     json_in = json.loads(load_test_db(test_db_file))
 
@@ -66,7 +64,7 @@ def test_high_salary():
                         assert False
         assert True
 
-
+@pytest.mark.servertest
 def test_pension_age():
     ## Test success if one or more of the employees are >= age 67
     found_in_db = False
@@ -172,7 +170,7 @@ def test_add_exisitng_employee():
 
 
 @pytest.mark.servertest
-def sort_by_salary():
+def test_sort_by_salary():
     sort_success = False
 
     try:
@@ -195,6 +193,6 @@ def sort_by_salary():
 
     assert sort_success
 
-#
+
 # if __name__ == "__main__":
-#     sort_by_salary()
+#     test_sort_by_salary()

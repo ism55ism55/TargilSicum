@@ -2,6 +2,7 @@ import json
 #import TargilSicum.Logger
 import Logger
 
+
 class Worker:
 
     json_data = dict()
