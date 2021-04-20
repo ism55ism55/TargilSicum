@@ -11,7 +11,7 @@ Jinja2==2.10.1
 MarkupSafe==1.1.1
 more-itertools==7.0.0
 pluggy==0.11.0
-py==1.8.0
+py==1.10.0
 PyQt5==5.11.2
 PyQt5-sip==4.19.12
 pyqt5-tools==5.11.2.1.3rc6
